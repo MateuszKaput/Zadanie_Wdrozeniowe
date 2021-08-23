@@ -1,12 +1,12 @@
 import React from "react";
 import "../../App.css";
-import Gallery from "../../Gallery";
+import Gallery from "../Gallery";
 
-function galeria() {
+function Galeria() {
   return (
     <>
       <Gallery />
     </>
   );
 }
-export default Gallery;
+export default Galeria;
