@@ -1,25 +1,8 @@
 .head-text {
   position: relative;
-}
-.text-on-image {
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  font-size: 50px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
-}
-video {
-  object-fit: cover;
-  width: 80%;
-  height: 100%;
-  position: fixed;
-  z-index: -1;
-}
-.top-img {
   width: 100%;
 }
+
 .hero-container {
   width: 100%;
   display: flex;

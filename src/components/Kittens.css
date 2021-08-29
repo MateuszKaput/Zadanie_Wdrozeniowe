@@ -1,3 +1,11 @@
+.lazy {
+  width: 100%;
+  pointer-events: none;
+}
+.each-slide {
+  align-items: center;
+}
+
 .text-on-image {
   position: absolute;
   width: 100%;
