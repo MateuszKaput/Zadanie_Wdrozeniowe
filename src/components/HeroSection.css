@@ -15,7 +15,7 @@
 
 .hero-container > h1 {
   color: #fff;
-  font-size: 100px;
+  font-size: 5vw;
   margin-top: -100px;
 }
 
@@ -28,14 +28,15 @@
 }
 .who_we_are {
   text-align: justify;
-  font-size: 30px;
+  font-size: 3vw;
   padding: 0px 30px;
 }
 .who_we_are > h1 {
   margin: 20px 0;
-  font-size: 100px;
+  font-size: 8vw;
 }
 .who_we_are > p {
+  font-size: 3vw;
   text-align: justify;
   font-family: cursive;
 }
@@ -51,25 +52,73 @@
   padding: 10px 0;
   width: 100%;
 }
+.para {
+  text-align: justify;
+  padding: 0px 30px;
+}
+.para h1 {
+  margin: 20px 30px;
+  font-size: 8vw;
+}
+.paraJeden h4 {
+  padding-top: 1vw;
+  font-size: 4vw;
+}
+.paraJeden img {
+  width: 50%;
+  float: left;
+  padding: 2vw;
+}
+.paraJeden p {
+  padding: 1vw;
+  font-size: 2.5vw;
+  text-align: justify;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.paraDwa h4 {
+  padding-top: 1vw;
+  padding-top: 1vw;
+  font-size: 4vw;
+}
+.paraDwa img {
+  width: 50%;
+  float: right;
+  padding: 2vw;
+}
+.paraDwa p {
+  padding: 1vw;
+  font-size: 2.5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.stopka {
+  background-color: black;
+  color: #fff;
+  width: 100%;
+}
+.stopkaLewa {
+  padding: 30px;
+  width: 45%;
+  float: left;
+  font-size: 3vw;
+}
+.stopkaPrawa {
+  padding: 30px;
+  font-size: 3vw;
+}
+.stopkaPrawa p {
+  padding: 2px;
+  text-align: right;
+}
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
-    font-size: 70px;
     margin-top: -150px;
-  }
-  .text-on-image {
-    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > h1 {
-    font-size: 50px;
     margin-top: -100px;
-  }
-  .text-on-image {
-    font-size: 15px;
-  }
-  .hero-container > p {
-    font-size: 30px;
   }
 }

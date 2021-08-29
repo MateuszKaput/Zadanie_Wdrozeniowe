@@ -17,6 +17,7 @@ class Kittens extends React.Component {
   }
 
   componentDidMount() {
+    document.title = "Koty!";
     this.interval = setInterval(() => this.changeKittiFact(), 6000);
   }
 

@@ -2,6 +2,8 @@ import React from "react";
 import "../App.css";
 import "./HeroSection.css";
 import Kittens from "./Kittens";
+import paraJeden from "../assets/images/paraJeden.JPG";
+import paraDwa from "../assets/images/paraDwa.JPG";
 
 const fb =
   "https://lh3.googleusercontent.com/proxy/JcuAQpoFIJYYMnUVscZtCt5TGMyGkp6glAi0fmJ2HcdZDq5aRjHdkxRkAToWJB-ZvuLXTSWUTSr7EOFkF3O4yzOQLxes8fJ6vGAgr6COURUOH6FhrROs";
@@ -19,7 +21,6 @@ function HeroSection() {
         <div className="head-text">
           <Kittens />
         </div>
-
         <div className="who_we_are">
           <h1>Kim jesteśmy?</h1>
           <p>{loremIpsum}</p>
@@ -43,6 +44,34 @@ function HeroSection() {
             <a href="https://www.youtube.com" rel="noreferrer" target="_blank">
               <img src={yt} alt="" />
             </a>
+          </div>
+        </div>
+        <div className="para">
+          <h1>Nasza Para</h1>
+          <div className="paraJeden">
+            <img src={paraJeden} alt=""></img>
+            <h4>Emil</h4>
+            <p>{loremIpsum}</p>
+          </div>
+        </div>
+        <div className="para">
+          <div className="paraDwa">
+            <img src={paraDwa} alt=""></img>
+            <h4>Barbara</h4>
+            <p>{loremIpsum}</p>
+          </div>
+        </div>
+        <div className="stopka">
+          <div className="stopkaLewa">
+            <p>Kocioł Hodowla Kotów Dachowych</p>
+            <p>ul. Kocia 66, 33-100 Tarnów</p>
+            <p>tel. 500 600 700</p>
+          </div>
+          <div className="stopkaPrawa">
+            <p>Wydarzenia</p>
+            <p>Galeria</p>
+            <p>Sklep</p>
+            <p>Copyright Dupa Sp. z o. o. 2021</p>
           </div>
         </div>
       </div>
