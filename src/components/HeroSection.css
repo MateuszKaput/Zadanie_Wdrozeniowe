@@ -1,0 +1,92 @@
+.head-text {
+  position: relative;
+}
+.text-on-image {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+video {
+  object-fit: cover;
+  width: 80%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.top-img {
+  width: 100%;
+}
+.hero-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.who_we_are {
+  text-align: justify;
+  font-size: 30px;
+  padding: 0px 30px;
+}
+.who_we_are > h1 {
+  margin: 20px 0;
+  font-size: 100px;
+}
+.who_we_are > p {
+  text-align: justify;
+  font-family: cursive;
+}
+.social {
+  width: 40%;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  padding: 12px 12px;
+}
+.social img {
+  cursor: pointer;
+  padding: 10px 0;
+  width: 100%;
+}
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+  .text-on-image {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+  .text-on-image {
+    font-size: 15px;
+  }
+  .hero-container > p {
+    font-size: 30px;
+  }
+}

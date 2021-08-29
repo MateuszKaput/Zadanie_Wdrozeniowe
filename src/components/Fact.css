@@ -1,0 +1,9 @@
+.text-on-image {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  font-size: 50px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
