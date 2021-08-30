@@ -17,7 +17,6 @@ class Kittens extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "Koty!";
     this.interval = setInterval(() => this.changeKittiFact(), 6000);
   }
 
@@ -52,7 +51,6 @@ class Kittens extends React.Component {
       "https://images7.alphacoders.com/640/thumb-1920-640360.jpg",
       "https://www.tapeteos.pl/data/media/170/big/zwierzeta_1920x1080_054_koty.jpg",
       "https://images.alphacoders.com/442/thumb-1920-442601.jpg",
-      "https://lh3.googleusercontent.com/proxy/xxalu3nV7br0tQNxdS2i-KHK23KZqXFkRbnMAkq85-OR6nC5g-P0Y25_5ZY4KJP5yJG_gyWAdkUlUGfBxV-yacep_lKUSWYwXPMvFSai0JDbiEso5De58MuAjoY",
       "https://www.tapeteos.pl/data/media/170/big/zwierzeta_1920x1080_020_kot.jpg",
       "https://s1.1zoom.me/b5050/747/Cats_Munchkin_Kittens_Cute_Four_4_566399_1920x1080.jpg",
       "https://images.alphacoders.com/505/thumb-1920-505009.jpg",

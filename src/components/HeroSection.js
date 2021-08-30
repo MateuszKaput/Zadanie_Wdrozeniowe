@@ -6,7 +6,7 @@ import paraJeden from "../assets/images/paraJeden.JPG";
 import paraDwa from "../assets/images/paraDwa.JPG";
 
 const fb =
-  "https://lh3.googleusercontent.com/proxy/JcuAQpoFIJYYMnUVscZtCt5TGMyGkp6glAi0fmJ2HcdZDq5aRjHdkxRkAToWJB-ZvuLXTSWUTSr7EOFkF3O4yzOQLxes8fJ6vGAgr6COURUOH6FhrROs";
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/1024px-Facebook_icon_2013.svg.png";
 const insta =
   "https://www.freepnglogos.com/uploads/logo-ig-png/logo-ig-png-instagram-logo-camel-productions-website-25.png";
 const yt =
